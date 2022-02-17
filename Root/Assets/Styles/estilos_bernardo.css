@@ -1,4 +1,10 @@
 body{
-background-color: #000000 ;
-color: #FFFFFF ;
+    background-color: #000000 ;
+    color: #FFFFFF ;
+}
+article{
+    background-color: rgb(44, 43, 43);
+}
+nav>ul>li{
+    color: #FFFF00;
 }
