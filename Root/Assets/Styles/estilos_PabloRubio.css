@@ -19,21 +19,25 @@ nav>ul>li{
     list-style:none;
 }
 
+.resaltado{
+    color: #FFFF00;
+}
+
 nav>ul>li>a{
     text-decoration:none;
  }
 /* Termina barra de navegación */
 
 
-.resaltado{
-    color: #FFFF00;
-}
-
+/* Título del blog */
 #titulo_del_blog {
     text-align: center;
     font-size: 3rem;
 }
 
+/* Termina título del blog */
+
+/* Ilustraciones */
 .ilustracion {
     border-width: 4px;
     border-style: solid;
@@ -41,13 +45,16 @@ nav>ul>li>a{
     display: inline-block;
 }
 
-#footer_blog {
-    margin:2rem;
-}
 
 .ilustracion figcaption {
     margin-top:1rem;
     margin-left:1rem;
     font-style:italic;
 } 
+/* Termina ilustraciones */
 
+/* Footer del blog */
+#footer_blog {
+    margin:2rem;
+}
+/* Termina footer del blog */
