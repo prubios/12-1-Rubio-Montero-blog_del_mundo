@@ -1,3 +1,15 @@
+/* Grid */
+section {
+    /* Crea el grid */
+    display: grid;
+    /* 12 columnas */
+    grid-template-columns: repeat(12, 1fr);
+    /* Espacio filas */
+    grid-auto-rows:auto;
+    /* Espacio elementos grid */
+    gap: 3rem;
+}
+
 /* Clases generales */
 body{
    background-color:#000000 ; 
