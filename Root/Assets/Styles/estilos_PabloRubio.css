@@ -1,4 +1,4 @@
-/* Grid */
+/* Grids */
 section {
     /* Crea el grid */
     display: grid;
@@ -8,6 +8,26 @@ section {
     grid-auto-rows:auto;
     /* Espacio elementos grid */
     gap: 3rem;
+}
+
+section>header {
+    /* Extensión de la sección */
+    grid-column: span 12;
+}
+
+section>main {
+    /* Extensión de la sección */
+    grid-column: span 8;
+}
+
+section>aside {
+    /* Extensión de la sección */
+    grid-column: span 4;
+}
+
+section>footer {
+    /* Extensión de la sección */
+    grid-column: span 12;
 }
 
 /* Clases generales */
