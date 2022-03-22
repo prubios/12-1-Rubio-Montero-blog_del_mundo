@@ -1,3 +1,69 @@
+/* Aside */
+aside>h2{
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+
+aside>div:nth-child(even){
+    background-color:rgb(44, 43, 43);
+}
+
+/* fondo de las imágenes microblogging */
+aside>div>img{
+    background-color: #FFF;
+    padding: 0.5rem;
+    /* redondea el borde del fondo */
+    border-radius: 50%;
+}
+
+
+/* Flex Box */
+nav{
+    font-size: 1.3rem;
+}
+
+nav>ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 0.5rem;
+}
+
+article>header>hgroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article>header>hgroup>h2{
+    display:flex;
+    align-items: center;
+}
+
+article>header>hgroup>h2>img{
+    margin-right: 1rem;
+}
+
+aside>div{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+    padding: 0.75rem;
+    align-items: center;
+    gap: .5rem;
+}
+
+/* Termina Flex Box */
+
+/* Pseudoclases */
+nav>ul>li>a:hover{
+    text-decoration:underline;
+    color: greenyellow;
+ }
+/* Termina Pseudoclases*/
+
 /* Grids */
 section {
     /* Crea el grid */
@@ -57,6 +123,7 @@ nav>ul>li{
 
 nav>ul>li>a{
     text-decoration:none;
+    color: #FFF;
  }
 /* Termina barra de navegación */
 
@@ -87,5 +154,15 @@ nav>ul>li>a{
 /* Footer del blog */
 #footer_blog {
     margin:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 0 4rem 0;
+    font-size: 1.3rem;
 }
+
+#footer_blog div:nth-child(2){
+    font-size: 0.9rem;
+}
+ 
 /* Termina footer del blog */
